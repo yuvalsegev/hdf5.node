@@ -51,9 +51,9 @@
                     'C:/Program Files/Microsoft SDKs/Windows/v7.1/Include'
                 ],
                 'sources': [
+                    'src/hdf5.cc',			
                     'src/int64.cc',
                     'src/uint64.cc',
-                    'src/hdf5.cc',
                     'src/attributes.cc',
                     'src/methods.cc',
                     'src/h5_file.cc',
@@ -102,9 +102,9 @@
                     '<(hdf5_home_mac)/include'
                 ],
                 'sources': [
+                    'src/hdf5.cc',			
                     'src/int64.cc',
                     'src/uint64.cc',
-                    'src/hdf5.cc',
                     'src/attributes.cc',
                     'src/methods.cc',
                     'src/h5_file.cc',
@@ -139,9 +139,9 @@
                     "/usr/include/hdf5/serial"
                 ],
                 'sources': [
+                    'src/h5lt.cc',			
                     'src/int64.cc',
                     'src/uint64.cc',
-                    'src/h5lt.cc',
                     'src/reference.cc'
                 ],
                 'link_settings': {
@@ -165,10 +165,10 @@
                     'C:/Program Files/Microsoft SDKs/Windows/v7.1/Include'
                 ],
                 'sources': [
+                    'src/h5lt.cc'			
                     'src/int64.cc',
                     'src/uint64.cc',
                     'src/reference.cc',
-                    'src/h5lt.cc'
                 ],
                 "configurations": {
                             "Release": {
@@ -210,9 +210,9 @@
                     '<(hdf5_home_mac)/include'
                 ],
                 'sources': [
+                    'src/h5lt.cc',			
                     'src/int64.cc',
                     'src/uint64.cc',
-                    'src/h5lt.cc',
                     'src/reference.cc'
                 ],
                 'link_settings': {
@@ -339,9 +339,9 @@
                     "/usr/include/hdf5/serial"
                 ],
                 'sources': [
+                    'src/h5pt.cc',			
                     'src/int64.cc',
                     'src/uint64.cc',
-                    'src/h5pt.cc',
                     'src/h5_pt.cc'
                 ],
                 'link_settings': {
@@ -365,9 +365,9 @@
                     'C:/Program Files/Microsoft SDKs/Windows/v7.1/Include'
                 ],
                 'sources': [
+                    'src/h5pt.cc',			
                     'src/int64.cc',
                     'src/uint64.cc',
-                    'src/h5pt.cc',
                     'src/h5_pt.cc'
                 ],
                 "configurations": {
