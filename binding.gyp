@@ -21,9 +21,9 @@
                     "/usr/include/hdf5/serial"
                 ],
                 'sources': [
+		    'src/hdf5.cc',
                     'src/int64.cc',
                     'src/uint64.cc',
-                    'src/hdf5.cc',
                     'src/attributes.cc',
                     'src/methods.cc',
                     'src/h5_file.cc',
