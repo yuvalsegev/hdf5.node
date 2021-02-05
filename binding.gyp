@@ -165,7 +165,7 @@
                     'C:/Program Files/Microsoft SDKs/Windows/v7.1/Include'
                 ],
                 'sources': [
-                    'src/h5lt.cc'			
+                    'src/h5lt.cc',
                     'src/int64.cc',
                     'src/uint64.cc',
                     'src/reference.cc',
